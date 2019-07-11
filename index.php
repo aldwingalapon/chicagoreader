@@ -10,7 +10,27 @@
 					</div>
 					<div class="clearfix"></div>
 				</div>
-				<div class="clearfix clear_5rem"></div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		
+		<div class="section big-picture">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="stars">
+							<div class="magazine-line"></div>
+							<img src="images/the-big-picture-transparent-bg.png" alt="" title="" />
+							<div class="text-content">
+								<h3>The Big Picture</h3>
+								<p><span class="clear">In print and online, we reach</span> <span class="clear">approximately 1 in 3 Chicagoans.</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
 			</div>
 		</div>
 		<div class="clearfix"></div>
@@ -25,7 +45,7 @@
 				<div class="clearfix"></div>
 			</div>
 		</div>
-		<div class="clearfix clear_2rem"></div>
+		<div class="clearfix"></div>
 		
 		<div class="section">
 			<div class="container">
@@ -38,11 +58,19 @@
 			</div>
 		</div>
 		<div class="clearfix"></div>
-		
-		<div class="section">
+
+		<div class="section opt-in">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-offset-2 col-md-8">
+						<form>
+							<div class="description"><span class="clear">Find out more</span> <span class="clear">about how we can help you grow.</span> <span class="clear">Connect with us below to</span> <span class="clear">get our full media kit.</span></div>
+							<input type="text" placeholder="NAME" />
+							<input type="email" placeholder="EMAIL" />
+							<input type="submit" value="I want to know more" />
+						</form>
+						<p><span class="clear">Want to know how to reach a collective of 8 Legacy</span> <span class="clear">Chicago Community &amp; Ethnic Media?</span></p> 
+						<p>Download the Reader Media Group Lit <a href="#"><strong>here</strong></a>.</p>
 					</div>
 					<div class="clearfix"></div>
 				</div>
