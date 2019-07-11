@@ -1,0 +1,66 @@
+/*
+Theme Name:         Chicago Reader
+Theme URI:          
+Description:        
+Version:            1
+Author:             The Holewinski Group
+Author URI:         http://www.holewinskigroup.com/
+Tags: 
+Text Domain: 		chicagoreader
+*/
+
+/*----------------------------------------------*/
+/* Global Reset */
+/*----------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font: inherit;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+/*----------------------------------------------*/
+/* Extra fonts */
+/*----------------------------------------------*/
+@font-face {font-family: "Benton Modern Display - Semibold Italic"; src: url("fonts/BentonModDisp-SemiboldIt.otf") format("opentype");}
+@font-face {font-family: "Benton Modern Display - Black"; src: url("fonts/BentonModDisp-Black.otf") format("opentype");}
+@font-face {font-family: "Neutra Text - Book"; src: url("fonts/NeutraText-Book.otf") format("opentype");}
+@font-face {font-family: "Neutra Text - Bold"; src: url("fonts/NeutraText-Bold.otf") format("opentype");}
+
+/*----------------------------------------------*/
+/* Base */
+/*----------------------------------------------*/
+* {margin: 0;}
+html{-webkit-tap-highlight-color:transparent; -webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;margin:0;padding:0;height:100%;overflow-y: scroll;}
+body{position:relative;     font-family: Helvetica,Arial,sans-serif; color:#130504; background-color: transparent; padding: 0; margin: 0; font-weight:300; font-size: 14pt; height:100%;overflow: visible !important;}
+img, article img, aside img, header img, section img, img[class*="align"] {max-width: 100%;}
+img, article img, aside img, header img, section img, img[class*="align"] {height: auto;}
+a{text-decoration: none; -webkit-transition: color .2s ease; transition: color .2s ease; color: #130504;}
+a:hover, a:active, a:focus {color: #FFD700;}
+
+
+/*----------------------------------------------*/
+/* Header */
+/*----------------------------------------------*/
+header#main-header{margin: 2rem 0 4rem; padding: 0;}
+header#main-header .header-logo{text-align:center;}
+header#main-header .header-logo .logo, header#main-header .logo{background: transparent url(images/chicago-reader-logo@3x.png) no-repeat center; background-size: cover; display:inline-block; width:363px; height:79px;}
+
+/*----------------------------------------------*/
+/* Content */
+/*----------------------------------------------*/
+
+
+/*----------------------------------------------*/
+/* Footer */
+/*----------------------------------------------*/
+footer#main-footer{}
+footer#main-footer .footer-menu{display:block; list-style:none; text-align:center; margin-top: 2rem; padding:0.25rem 0; border-top: 1px solid #999;}
+footer#main-footer .footer-menu li{border-right: 1px solid #999; display: inline-block; font-size: 0.75rem; line-height: 1; font-weight: bold; padding: 0 0.4rem 0 0.125rem; text-transform: uppercase;}
+footer#main-footer .footer-menu li.first{}
+footer#main-footer .footer-menu li.last{border-right: none;}
+footer#main-footer .footer-menu li a{white-space: nowrap;}
+footer#main-footer .footer-menu li i{font-style: italic;}
+footer#main-footer .copyright{text-align: center; margin: 0; padding: 1rem 0 6rem; font-size: 0.7125rem; line-height: 1.2;}
+
