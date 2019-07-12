@@ -65,7 +65,7 @@ header#main-header .header-logo .logo, header#main-header .logo{background: tran
 div#main-content{}
 div#main-content .section{}
 div#main-content .section.message{text-align:center;}
-div#main-content .section.message p{position:relative; font-family: "Benton Modern Display - Black"; font-size: 35pt; line-height: 1.3; margin-bottom: 4rem;}
+div#main-content .section.message p{position:relative; font-family: "Benton Modern Display - Black";}
 div#main-content .section.message p span{}
 div#main-content .section.message p .brace{}
 div#main-content .section.message p .highlight{display: inline-block;  position: relative;}
@@ -76,41 +76,39 @@ div#main-content .section.big-picture .stars{position:relative; background: tran
 div#main-content .section.big-picture .stars .magazine-line {position: absolute; transform: translate(-50%,0); left: 50%;}
 div#main-content .section.big-picture .stars .magazine-line:before{content:"";}
 div#main-content .section.big-picture .stars .text-content{position: absolute; width: 100%; top: 0; left: 0;}
-div#main-content .section.big-picture .stars .text-content h3{font-family: "Neutraface 2 Text - Bold"; color: #0d0d0d; text-transform: uppercase; font-size: 14pt; line-height: 1.4; margin-bottom: 1rem;}
-div#main-content .section.big-picture .stars .text-content p{font-family: "Benton Modern Display - Black"; color:#0d0d0d; font-size: 35pt; line-height: 1.2;}
+div#main-content .section.big-picture .stars .text-content h3{font-family: "Neutraface 2 Text - Bold"; color: #0d0d0d; text-transform: uppercase;}
+div#main-content .section.big-picture .stars .text-content p{font-family: "Benton Modern Display - Black"; color:#0d0d0d;}
 
 
 div#main-content .section.figures{text-align:center;}
-div#main-content .section.figures .statistics{text-align:right; padding-top: 2rem; padding-right: 2rem;}
-div#main-content .section.figures .statistics p{font-size: 19pt; line-height: 1; font-family: "Benton Modern Display - Semibold Italic";}
-div#main-content .section.figures .statistics p span{display: block; font-size: 17pt;}
+div#main-content .section.figures .statistics{}
+div#main-content .section.figures .statistics p{font-family: "Benton Modern Display - Semibold Italic";}
+div#main-content .section.figures .statistics p span{display: block;}
 div#main-content .section.figures .statistics p .type{font-family: "Neutraface 2 Text - Book";}
 div#main-content .section.figures .statistics p .value{font-family: "Neutraface 2 Text - Bold"; margin-bottom: 1rem;}
-div#main-content .section.figures .readership{text-align:left; padding-top: 2rem; padding-left: 2rem;}
+div#main-content .section.figures .readership{}
 div#main-content .section.figures .readership h3{font-family: "Neutraface 2 Text - Bold"; text-transform:uppercase;}
-div#main-content .section.figures .readership p{font-family: "Benton Modern Display - Black"; font-size: 60pt; line-height: 0.85;}
+div#main-content .section.figures .readership p{font-family: "Benton Modern Display - Black";}
 
-div#main-content .section.yellow-people{position:relative; background: transparent url(images/reader-people-yellow@3x.jpg) no-repeat center / cover; z-index: -1;}
+div#main-content .section.yellow-people{position:relative; background: transparent url(images/reader-people-yellow@3x.jpg) repeat center / contain; z-index: -1;}
 div#main-content .section.yellow-people .container-fluid{padding:0;}
 div#main-content .section.yellow-people img.frame{}
-div#main-content .section.yellow-people .yellow-people-inner{position: absolute; top: 0; left: 50%; transform: translate(-50%,0); width: 70%; text-align: center; margin: 0; padding: 6rem 0 2rem;}
-div#main-content .section.yellow-people .yellow-people-inner h3{display: inline-block; font-family: "Benton Modern Display - Black"; font-size: 60pt; line-height: 1;}
+div#main-content .section.yellow-people .yellow-people-inner{position: absolute; top: 0; left: 50%; transform: translate(-50%,0);}
+div#main-content .section.yellow-people .yellow-people-inner h3{display: inline-block; font-family: "Benton Modern Display - Black";}
 div#main-content .section.yellow-people .yellow-people-inner h3.black{color:#FFF; background-color:#130504;}
-div#main-content .section.yellow-people .yellow-people-inner .circles{display: block; text-align: center; margin: 2rem 0; padding: 0;}
+div#main-content .section.yellow-people .yellow-people-inner .circles{display: block; text-align: center;}
 div#main-content .section.yellow-people .yellow-people-inner .circles li{position:relative; display: inline; vertical-align:middle;color:#130504;}
 div#main-content .section.yellow-people .yellow-people-inner .circles li span.circle{position:relative; display:inline-block; vertical-align: middle; background-color:#FFF;border-radius:100%;}
-div#main-content .section.yellow-people .yellow-people-inner .circles li.break{}
-div#main-content .section.yellow-people .yellow-people-inner .circles li:nth-child(3):after {content: "\A"; white-space: pre;}
 div#main-content .section.yellow-people .yellow-people-inner .circles li span{display:block;color:#130504;}
 div#main-content .section.yellow-people .yellow-people-inner .circles li .value{font-family: "Benton Modern Display - Black";}
 div#main-content .section.yellow-people .yellow-people-inner .circles li .label{font-family: "Neutraface 2 Text - Book";}
 
 div#main-content .section.opt-in{text-align: center; margin-top: 4rem; padding: 0;}
-div#main-content .section.opt-in h3{font-family: "Neutraface 2 Text - Book"; font-size: 27pt; line-height: 1; text-transform: uppercase; display: inline-block; margin: 2rem 0 1rem; padding: 0.5rem 1.25rem;}
+div#main-content .section.opt-in h3{font-family: "Neutraface 2 Text - Book"; text-transform: uppercase; display: inline-block;}
 div#main-content .section.opt-in h3.black{color:#FFD700; background-color:#130504;}
 div#main-content .section.opt-in h3.yellow{color:#130504; background-color:#FFD700;}
 div#main-content .section.opt-in form{margin-bottom: 3rem;}
-div#main-content .section.opt-in form .description{font-family: "Benton Modern Display - Black"; font-size: 35pt; line-height: 1.3; margin:6rem auto 2rem;}
+div#main-content .section.opt-in form .description{font-family: "Benton Modern Display - Black";}
 div#main-content .section.opt-in form input[type="text"], div#main-content .section.opt-in form input[type="email"]{display: block; width: 100%; border: 1px solid #0D0D0D; font-family: "Neutraface 2 Text - Book"; font-size: 14pt; line-height: 1; margin-bottom: 0.5rem; padding: 0.5rem 1rem;}
 div#main-content .section.opt-in form input[type="submit"]{border: 0; background-color: #FFD700; color: #0D0D0D; font-family: "Neutraface 2 Text - Bold"; text-transform: uppercase; font-size: 13pt; margin: 2rem 0 1rem; padding: 1rem 2rem;}
 div#main-content .section.opt-in p{font-family: "Neutraface 2 Text - Book"; font-size: 18pt; line-height: 1.3; margin-bottom: 1.5rem;}
