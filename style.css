@@ -68,6 +68,16 @@ div#main-content .section.big-picture .stars .text-content h3{font-family: "Neut
 div#main-content .section.big-picture .stars .text-content p{font-family: "Benton Modern Display - Black"; color:#0d0d0d; font-size: 35pt;}
 
 
+div#main-content .section.figures{text-align:center;}
+div#main-content .section.figures .statistics{text-align:right; padding-top: 2rem; padding-right: 2rem;}
+div#main-content .section.figures .statistics p{font-size: 19pt; line-height: 1; font-family: "Benton Modern Display - Semibold Italic";}
+div#main-content .section.figures .statistics p span{display: block; font-size: 17pt;}
+div#main-content .section.figures .statistics p .type{font-family: "Neutra Text - Book";}
+div#main-content .section.figures .statistics p .value{font-family: "Neutra Text - Bold"; margin-bottom: 1rem;}
+div#main-content .section.figures .readership{text-align:left; padding-top: 2rem; padding-left: 2rem;}
+div#main-content .section.figures .readership h3{font-family: "Neutra Text - Bold"; text-transform:uppercase;}
+div#main-content .section.figures .readership p{font-family: "Benton Modern Display - Black"; font-size: 60pt; line-height: 0.85;}
+
 div#main-content .section.opt-in{text-align: center;}
 div#main-content .section.opt-in form{margin-bottom: 3rem;}
 div#main-content .section.opt-in form .description{font-family: "Benton Modern Display - Black"; font-size: 35pt; line-height: 1.3; margin-bottom: 2rem;}

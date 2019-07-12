@@ -35,10 +35,25 @@
 		</div>
 		<div class="clearfix"></div>
 		
-		<div class="section">
+		<div class="section figures">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4 statistics">
+						<p><span class="type">Weekly Print:</span><span class="value">55,000 copies</span>
+						<span class="type">Digital + Social:</span><span class="value">1.2M+ monthly users</span>
+						<span class="type">Email uniques:</span><span class="value">67,000</span>
+						<span class="type">Website monthly users:</span><span class="value">690,000</span>
+						<span class="type">Twitter:</span><span class="value">280,000</span>
+						<span class="type">Facebook:</span><span class="value">90,000</span>
+						<span class="type">Instagram:</span><span class="value">52,000</span>
+						and growing fast</p>
+					</div>
+					<div class="col-md-4">
+						<img src="images/reader-magazine-zigzag@1x.png" alt="" title="" />
+					</div>
+					<div class="col-md-4 readership">
+						<h3>Monthly Readership</h3>
+						<p>1.5M million people across the Chicago area</p>
 					</div>
 					<div class="clearfix"></div>
 				</div>
