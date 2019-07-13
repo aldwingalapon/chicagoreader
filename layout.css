@@ -47,55 +47,32 @@
 }
 
 @media only screen and (max-width:1600px){
+	div#main-content .section.yellow-people img.frame{min-height:960px;}
 }
 
 @media only screen and (max-width:1440px){
+	div#main-content .section.yellow-people img.frame{min-height:1280px;}
 }
 
 @media only screen and (max-width:1366px){
 }
 
 @media only screen and (max-width:1280px){
+	div#main-content .section.yellow-people img.frame {min-height: 860px;}
+	div#main-content .section.yellow-people .yellow-people-inner .circles li span.circle{width: 140px; height: 140px;}
+	div#main-content .section.yellow-people .yellow-people-inner .circles li .value {font-size: 32pt;}
+	div#main-content .section.yellow-people .yellow-people-inner .circles li .label {font-size: 10pt;}	
 }
+
+@media only screen and (max-width:1279px){
+
+}
+
 
 @media only screen and (max-width:1200px){
 }
 
 @media only screen and (max-width:1024px){
-	div#main-content .clear {display:inline;}
-
-	div#main-content .section.message p {font-size: 32pt;}
-
-	div#main-content .section.big-picture .stars .text-content {padding: 2rem 4rem;}
-	div#main-content .section.big-picture .stars .text-content h3 {line-height: 1.2; margin-bottom: 0.5rem;}
-	div#main-content .section.big-picture .stars .text-content p {font-size: 32pt; line-height: 1.2; margin-bottom: 0.5rem;}
-	
-	div#main-content .section.figures {margin-bottom: -4rem;}
-	div#main-content .section.figures .statistics p {font-size: 17pt;}
-	div#main-content .section.figures .statistics p span {font-size: 14pt;}
-	div#main-content .section.figures .statistics{padding-top: 1rem; padding-right: 1rem;}
-	div#main-content .section.figures .readership{padding-top: 1rem; padding-left: 1rem;}
-	div#main-content .section.figures .readership h3{font-size:14pt;}
-	div#main-content .section.figures .readership p{font-size: 48pt; line-height: 0.85;}
-	div#main-content .section.figures .statistics p .value {margin-bottom: 0.75rem;}	
-	
-	div#main-content .section.yellow-people .yellow-people-inner{width: 85%; margin: 0; padding: 6rem 0 2rem;}
-	div#main-content .section.yellow-people .yellow-people-inner h3{font-size: 48pt; line-height: 1; margin: 0 0 2rem; padding: 1rem 2rem;}
-	div#main-content .section.yellow-people .yellow-people-inner .circles{margin: 1rem 0; padding: 0;}
-	div#main-content .section.yellow-people .yellow-people-inner .circles li span.circle{width: 170px; height: 170px; margin: 1rem; padding: 0.5rem;}
-	div#main-content .section.yellow-people .yellow-people-inner .circles li:nth-child(3):after {display:none;}
-	div#main-content .section.yellow-people .yellow-people-inner .circles li .value {font-size: 42pt;}
-	div#main-content .section.yellow-people .yellow-people-inner .circles li .label {font-size: 14pt;}
-	
-	div#main-content .section.opt-in h3{font-size: 24pt;}
-	div#main-content .section.opt-in form .description {font-size: 32pt;}
-
-}
-
-@media only screen and (min-width:1024px){
-}
-
-@media only screen and (max-width:1023px){
 	div#main-content .section.big-picture .stars .magazine-line {width: 90%; bottom: 105%;}
 	div#main-content .section.big-picture .stars .text-content {padding: 1rem 2rem;}
 	div#main-content .section.big-picture .stars .text-content h3 {font-size:12pt;}
@@ -112,10 +89,16 @@
 	div#main-content .section.yellow-people .yellow-people-inner {width: 92%;}
 	div#main-content .section.yellow-people .yellow-people-inner h3 {margin: 0;}
 	div#main-content .section.yellow-people img.frame {min-height: 720px;}
-	div#main-content .section.yellow-people .yellow-people-inner .circles li span.circle{width: 140px; height: 140px;}
-	div#main-content .section.yellow-people .yellow-people-inner .circles li .value {font-size: 32pt;}
-	div#main-content .section.yellow-people .yellow-people-inner .circles li .label {font-size: 10pt;}
-	
+
+
+}
+
+@media only screen and (min-width:1024px){
+}
+
+@media only screen and (max-width:1023px){
+	div#main-content .section.yellow-people img.frame {min-height: 980px;}
+
 }
 
 @media only screen and (max-width:970px){
@@ -128,9 +111,12 @@
 }
 
 @media only screen and (max-width:768px){
+	div#main-content .section.yellow-people img.frame {min-height: 720px;}
+	div#main-content .section.yellow-people .yellow-people-inner .circles li span.circle {margin: 1rem 0.75rem 0rem; padding: 1rem;}
 }
 
 @media only screen and (max-width:767px){
+	div#main-content .section.yellow-people img.frame {min-height: 960px;}
 	footer#main-footer .footer-menu{max-width:100%;}
 }
 
@@ -147,6 +133,10 @@
 }
 
 @media only screen and (max-width:533px){
+	div#main-content .section.yellow-people .yellow-people-inner .circles li span.circle {width: 120px; height: 120px;}
+	div#main-content .section.yellow-people .yellow-people-inner .circles li .value {font-size: 28pt; margin-top: 22px;}
+	div#main-content .section.yellow-people .yellow-people-inner .circles li .label {font-size: 10pt;}	
+	
 }
 
 @media only screen and (max-width:532px){
