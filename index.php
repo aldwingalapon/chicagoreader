@@ -21,7 +21,7 @@
 					<div class="col-md-12">
 						<div class="stars">
 							<div class="magazine-line"></div>
-							<img src="images/the-big-picture-transparent-bg.png" alt="" title="" />
+							<!-- <img src="images/the-big-picture-transparent-bg.png" alt="" title="" /> -->
 							<div class="text-content">
 								<h3>The Big Picture</h3>
 								<p><span class="clear">In print and online, we reach</span> <span class="clear">approximately 1 in 3 Chicagoans.</span></p>
