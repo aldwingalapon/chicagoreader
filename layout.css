@@ -20,8 +20,8 @@
 	div#main-content .section.figures .readership p{font-size: 60pt; line-height: 0.85;}
 	div#main-content .section.figures .statistics p .value {margin-bottom: 1rem;}
 	
-	div#main-content .section.yellow-people img.frame{min-height:680px;}
-	div#main-content .section.yellow-people .yellow-people-inner{width: 70%; text-align: center; margin: 0; padding: 6rem 0 2rem;}
+	div#main-content .section.yellow-people img.frame{/*min-height:680px;*/}
+	div#main-content .section.yellow-people .yellow-people-inner{/*width: 70%; */text-align: center; margin: 0; padding-top: 6rem; padding-bottom: 2rem;}
 	div#main-content .section.yellow-people .yellow-people-inner h3{font-size: 60pt; line-height: 1; margin: 0 0 4rem; padding: 1rem 2.5rem;}
 	div#main-content .section.yellow-people .yellow-people-inner .circles{margin: 2rem 0; padding: 0;}
 	div#main-content .section.yellow-people .yellow-people-inner .circles li{}
@@ -47,18 +47,20 @@
 }
 
 @media only screen and (max-width:1600px){
-	div#main-content .section.yellow-people img.frame{min-height:960px;}
+	div#main-content .section.yellow-people img.frame{/*min-height:960px;*/}
 }
 
 @media only screen and (max-width:1440px){
-	div#main-content .section.yellow-people img.frame{min-height:1280px;}
+	div#main-content .section.yellow-people img.frame{/*min-height:1280px;*/}
 }
 
 @media only screen and (max-width:1366px){
 }
 
 @media only screen and (max-width:1280px){
-	div#main-content .section.yellow-people img.frame {min-height: 860px;}
+	div#main-content .clear{display: inline;}
+	
+	div#main-content .section.yellow-people img.frame {/*min-height: 860px;*/}
 	div#main-content .section.yellow-people .yellow-people-inner .circles li span.circle{width: 140px; height: 140px;}
 	div#main-content .section.yellow-people .yellow-people-inner .circles li .value {font-size: 32pt;}
 	div#main-content .section.yellow-people .yellow-people-inner .circles li .label {font-size: 10pt;}	
@@ -86,9 +88,9 @@
 	div#main-content .section.figures .readership h3{font-size:17pt;}
 	div#main-content .section.figures .statistics p .value {margin-bottom: 1rem;}
 	
-	div#main-content .section.yellow-people .yellow-people-inner {width: 92%;}
+	div#main-content .section.yellow-people .yellow-people-inner {/*width: 92%;*/}
 	div#main-content .section.yellow-people .yellow-people-inner h3 {margin: 0;}
-	div#main-content .section.yellow-people img.frame {min-height: 720px;}
+	div#main-content .section.yellow-people img.frame {/*min-height: 720px;*/}
 
 
 }
@@ -97,7 +99,7 @@
 }
 
 @media only screen and (max-width:1023px){
-	div#main-content .section.yellow-people img.frame {min-height: 980px;}
+	div#main-content .section.yellow-people img.frame {/*min-height: 980px;*/}
 
 }
 
@@ -111,12 +113,12 @@
 }
 
 @media only screen and (max-width:768px){
-	div#main-content .section.yellow-people img.frame {min-height: 720px;}
+	div#main-content .section.yellow-people img.frame {/*min-height: 720px;*/}
 	div#main-content .section.yellow-people .yellow-people-inner .circles li span.circle {margin: 1rem 0.75rem 0rem; padding: 1rem;}
 }
 
 @media only screen and (max-width:767px){
-	div#main-content .section.yellow-people img.frame {min-height: 960px;}
+	div#main-content .section.yellow-people img.frame {/*min-height: 960px;*/}
 	footer#main-footer .footer-menu{max-width:100%;}
 }
 

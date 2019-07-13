@@ -93,7 +93,7 @@ div#main-content .section.figures .readership p{font-family: "Benton Modern Disp
 div#main-content .section.yellow-people{position:relative; background: transparent url(images/reader-people-yellow@3x.jpg) repeat center / contain; z-index: -1;}
 div#main-content .section.yellow-people .container-fluid{padding:0;}
 div#main-content .section.yellow-people img.frame{}
-div#main-content .section.yellow-people .yellow-people-inner{position: absolute; top: 0; left: 50%; transform: translate(-50%,0);}
+div#main-content .section.yellow-people .yellow-people-inner{/*position: absolute; top: 0; left: 50%; transform: translate(-50%,0);*/}
 div#main-content .section.yellow-people .yellow-people-inner h3{display: inline-block; font-family: "Benton Modern Display - Black";}
 div#main-content .section.yellow-people .yellow-people-inner h3.black{color:#FFF; background-color:#130504;}
 div#main-content .section.yellow-people .yellow-people-inner .circles{display: block; text-align: center;}

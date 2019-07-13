@@ -63,26 +63,25 @@
 		<div class="clearfix"></div>
 		
 		<div class="section yellow-people">
-			<div class="container-fluid">
-				<img src="images/reader-people-blank@3x.png" class="frame" alt="" title="" />
-			</div>
-			<div class="container yellow-people-inner">
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="black">Reader readers are diverse.</h3>
-						<ul class="circles">
-							<li><span class="circle"><span class="value">40%</span><span class="label">are Millennials</span></span></li>
-							<li><span class="circle"><span class="value">33.6%</span><span class="label">are Caucasian</span></span></li>
-							<li><span class="circle"><span class="value">30.6%</span><span class="label">are Latinx</span></span></li>
-							<li class="break"><span class="circle"><span class="value">25.3%</span><span class="label">are Black</span></span></li>
-							<li><span class="circle"><span class="value">9.6%</span><span class="label">are Asian</span></span></li>
-							<li><span class="circle"><span class="value">56%</span><span class="label">are female-identifying</span></span></li>
-							<li><span class="circle"><span class="value">20%</span><span class="label">identify as LGBTQ</span></span></li>
-						</ul>
+			<div class="container">
+				<div class="yellow-people-inner">
+					<div class="row">
+						<div class="col-md-12">
+							<h3 class="black">Reader readers are diverse.</h3>
+							<ul class="circles">
+								<li><span class="circle"><span class="value">40%</span><span class="label">are Millennials</span></span></li>
+								<li><span class="circle"><span class="value">33.6%</span><span class="label">are Caucasian</span></span></li>
+								<li><span class="circle"><span class="value">30.6%</span><span class="label">are Latinx</span></span></li>
+								<li class="break"><span class="circle"><span class="value">25.3%</span><span class="label">are Black</span></span></li>
+								<li><span class="circle"><span class="value">9.6%</span><span class="label">are Asian</span></span></li>
+								<li><span class="circle"><span class="value">56%</span><span class="label">are female-identifying</span></span></li>
+								<li><span class="circle"><span class="value">20%</span><span class="label">identify as LGBTQ</span></span></li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
-				<div class="clearfix"></div>
 			</div>
 		</div>
 		<div class="clearfix"></div>
